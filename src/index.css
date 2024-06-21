@@ -2,6 +2,7 @@ header nav {
   height: 10vh;
   align-items: center;
 }
+
 header .bg-img {
   width: 100%;
   height: 80vh;
@@ -10,20 +11,24 @@ header .bg-img {
   background-repeat: no-repeat;
   background-position: center center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 header .bg-img .content {
   height: 80vh;
 }
+
 header .bg-img .content h1 {
   font-size: 4em;
   color: #ffffff;
 }
+
 header .bg-img .content p {
   font-size: 1.5em;
   color: rgb(255, 255, 255);
   margin-bottom: 1.5rem;
 }
+
 header .bg-img .content button {
   font-weight: 600;
   color: #ffffff;
@@ -37,9 +42,12 @@ main .inspiration_section .inspiration {
   background-repeat: no-repeat;
   background-position: center center;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 main .inspiration_section .inspiration .content {
   width: 100%;
   height: 80vh;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
