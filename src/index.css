@@ -11,6 +11,7 @@ header .bg-img {
   background-position: center center;
   -o-object-fit: cover;
      object-fit: cover;
+  object-fit: cover;
 }
 header .bg-img .content {
   height: 80vh;
@@ -38,6 +39,7 @@ main .inspiration_section .inspiration {
   background-position: center center;
   -o-object-fit: cover;
      object-fit: cover;
+  object-fit: cover;
 }
 main .inspiration_section .inspiration .content {
   width: 100%;
@@ -118,8 +120,119 @@ main .join_us div p {
 @media screen and (max-width: 1024px) {
   main .smallabout img {
     height: 40vh;
+main .smallabout {
+  width: 80%;
+  height: 60vh;
+}
+
+main .smallabout h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+main .smallabout h2 {
+  color: #a0a0a0;
+  margin-bottom: 20px;
+}
+
+main .smallabout img {
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+}
+
+main .join_us {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 600px;
+}
+
+main .join_us h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+main .join_us h6 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+main .join_us .cart {
+  margin-top: 200px;
+  background-color: #9aa8b1;
+  border: solid #9aa8b1;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+main .join_us div {
+  width: 40%;
+  height: 50%;
+  margin: auto;
+}
+
+main .join_us div img {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+main .join_us div h1,
+main .join_us div p {
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 384px) {
+  header .container nav ul {
+    display: none;
+  }
+
+  header .container nav h3 {
+    display: none;
+  }
+
+  header .container nav i {
+    font-size: 20px;
+    display: block;
+  }
+
+  main .get_started .container .flex {
+    flex-direction: column;
+  }
+
+  main .products .container .flex {
+    margin-left: 1.5rem;
+    text-align: center;
+    flex-direction: column;
   }
   .cart {
     height: 30vh;
   }
 }/*# sourceMappingURL=index.css.map */
+
+  main .smallabout img {
+    width: 90%;
+    margin: 0 auto;
+    height: 20vh;
+  }
+
+  main .smallabout {
+    width: 80%;
+    height: 30vh;
+  }
+
+  footer .container .flex {
+    margin-top: 2rem;
+  }
+
+  footer .container .flex .newsletter {
+    margin-left: 10rem;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -149,4 +149,86 @@ main {
     .cart {
     height: 30vh;
     }
+
+     .smallabout {
+    width: 80%;
+    height: 60vh;
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #a0a0a0;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 90%;
+      margin: auto;
+      height: 80vh;
+    }
+  }
+
+  .meaningful {
+    width: 90%;
+    height: 100vh;
+    margin-top: 400px;
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #a0a0a0;
+      margin-bottom: 20px;
+    }
+    .imgs {
+      img {
+        margin-top: 1rem;
+      }
+    }
+  }
+  .join_us {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 600px;
+
+    h1 {
+      font-size: 35px;
+      text-align: center;
+    }
+    h6 {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cart {
+      margin-top: 200px;
+      background-color: #9aa8b1;
+      border: solid #9aa8b1;
+      width: 100%;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+    }
+
+    div {
+      width: 40%;
+      height: 50%;
+      margin: auto;
+
+      img {
+        margin: auto;
+        margin-bottom: 10px;
+      }
+
+      h1,
+      p {
+        color: #ffffff;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+  }
 }
